@@ -43,10 +43,11 @@ dependency and took server-side storage to zero.
 
 | Project | What it is | Stack |
 |---|---|---|
-| [powerbi-report-viewer](https://github.com/SebasVA1234/powerbi-report-viewer) | Report portal that serves Power BI dashboards behind real authentication: TOTP two-factor, JWT that fails closed on a missing or weak secret, per-account rate limiting, role-based access, and a driver layer that runs on either SQLite or PostgreSQL. | Node.js · Express · SQLite/PostgreSQL |
-| [Data science workshops](https://github.com/SebasVA1234/taller_practico_3) | Three reproducible pipelines from the MSc: native structures and vectorized operations; REST API + CSV + Excel integration with layered storage and a quality diagnosis; and a full analytical flow that runs end to end with one command. | Python · pandas · NumPy · Jupyter |
-| [Text-to-Excel processor](https://github.com/SebasVA1234/Procesador-de-TXT-a-Excel-con-FastAPI-MVC) | Turns unstructured text exports into clean spreadsheets. Containerized, with token-scoped sharing links. | FastAPI · pandas · Docker |
-| [Commission calculator API](https://github.com/SebasVA1234/calcualtor-java) | REST service for shipping commission and totals, with configurable Basic auth and session expiry. | Java 21 · Spring Boot 3 · Docker |
+| [export-intensity-benchmark](https://github.com/SebasVA1234/export-intensity-benchmark) | A model that scores R² = 0.94 and is worth nothing — and the leave-one-country-out evaluation that shows why. Panel of five flower-exporting economies, 1962–2023, built from the World Bank API. The finding is negative and that is the point. | Python · pandas · scikit-learn · Matplotlib |
+| [powerbi-report-viewer](https://github.com/SebasVA1234/powerbi-report-viewer) | Internal operations platform: Power BI report portal plus HR, payroll, document management and air freight quoting, behind one authentication and permission layer. 136 REST endpoints, TOTP two-factor, JWT that fails closed, role-based access with per-user overrides and an audit log. | Node.js · Express · SQLite/PostgreSQL |
+| [data-science-workshops](https://github.com/SebasVA1234/data-science-workshops) | Three reproducible pipelines from the MSc: vectorized operations over a territorial dataset; multi-source integration with layered storage and a seven-finding quality diagnosis; and an analytical flow that runs end to end with one command. | Python · pandas · NumPy · Jupyter |
+| [txt-to-excel-fastapi](https://github.com/SebasVA1234/txt-to-excel-fastapi) | Turns unstructured text exports into clean spreadsheets. Containerized, with time-limited sharing links signed and passed in the URL fragment so they never reach server logs. | FastAPI · pandas · Docker |
+| [commission-calculator-api](https://github.com/SebasVA1234/commission-calculator-api) | REST service for shipping commissions and totals, with environment-configured Basic auth and session expiry. | Java 21 · Spring Boot 3 · Docker |
 
 ### Work I can't open-source
 

@@ -66,16 +66,11 @@ lives in private repositories. Happy to walk through any of it in an interview:
 
 ### Stack
 
-**Data** — Python (pandas, NumPy, Matplotlib), SQL, PostgreSQL, extraction from
-production databases over SSH tunnels
-**Machine learning** — supervised and unsupervised: regression, classification,
-clustering; data cleaning and preparation; exploratory analysis
-**BI** — Power BI (data modeling, parameters, service publishing, scheduled refresh),
-Tableau, advanced Excel
-**Engineering** — FastAPI, Node.js/Express, Spring Boot, Docker, ERP/CRM integration
-(Odoo), MicroPython on ESP32
-**Ways of working** — requirements gathering and acceptance criteria, vendor
-management, technical documentation, AI-assisted development
+- **Data** — Python (pandas, NumPy, Matplotlib), SQL, PostgreSQL, extraction from production databases over SSH tunnels
+- **Machine learning** — supervised and unsupervised: regression, classification, clustering; data cleaning and preparation; exploratory analysis; honest model validation
+- **BI** — Power BI (data modeling, parameters, service publishing, scheduled refresh), Tableau, advanced Excel
+- **Engineering** — FastAPI, Node.js/Express, Spring Boot, Docker, ERP/CRM integration (Odoo)
+- **Ways of working** — requirements gathering and acceptance criteria, vendor management, technical documentation, AI-assisted development
 
 ---
 

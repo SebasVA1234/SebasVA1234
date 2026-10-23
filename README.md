@@ -49,6 +49,17 @@ dependency and took server-side storage to zero.
 | [txt-to-excel-fastapi](https://github.com/SebasVA1234/txt-to-excel-fastapi) | Turns unstructured text exports into clean spreadsheets. Containerized, with time-limited sharing links signed and passed in the URL fragment so they never reach server logs. | FastAPI · pandas · Docker |
 | [commission-calculator-api](https://github.com/SebasVA1234/commission-calculator-api) | REST service for shipping commissions and totals, with environment-configured Basic auth and session expiry. | Java 21 · Spring Boot 3 · Docker |
 
+### Websites in production
+
+Client and company sites I built or rebuilt. The repositories are private; the sites
+are live.
+
+| Site | What it is | Stack |
+|---|---|---|
+| [Patitas GP](https://patitasgp.pages.dev) | Digital product catalog for a pet food distributor in Ecuador, replacing a PDF price list. The catalog is one JSON file the client edits from a git-based CMS: every save is a commit that deploys itself. Ordering opens WhatsApp with the product and bag size already written. Brand mascots drawn in SVG follow the cursor, blink and wink; installable on iOS and Android. | HTML · CSS · vanilla JS · Pages CMS · Cloudflare Pages |
+| [Ecualand Flowers](https://ecualandflowers.com) | Trilingual wholesale flower catalog (Spanish, English, Russian) that replaced a broken WordPress site. 112 pre-rendered pages, 32 product pages generated at build time from a JSON catalog, per-language titles and structured data so Google and Yandex index all three versions, and site copy editable from a web panel without touching code. | Astro · React · Framer Motion |
+| [ecualand.ec](https://www.ecualand.ec) | Performance, SEO and GEO overhaul of the corporate WordPress site for the US, European and Russian markets. Time to first byte in production went from 5.8–7.7 s to 0.6–0.7 s. On staging: LCP down 45 %, browser requests down 41 %, an `<h1>` on 80 of 80 pages (from zero). Traced five lost customizations to edits made inside theme and plugin files, and restored them as output filters that survive updates. | WordPress · PHP · WPBakery · staging on DreamHost |
+
 ### Work I can't open-source
 
 The strongest engineering I've done belongs to the companies I did it for, so it
